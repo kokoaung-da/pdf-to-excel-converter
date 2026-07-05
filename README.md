@@ -31,3 +31,14 @@
 ```bash
 git clone [https://github.com/YOUR_USERNAME/YOUR_REPOSITORY_NAME.git](https://github.com/YOUR_USERNAME/YOUR_REPOSITORY_NAME.git)
 cd YOUR_REPOSITORY_NAME
+
+### 2. Install Dependencies
+Install all required Python libraries using the following command:
+pip install customtkinter pdfplumber pandas openpyxl pyinstaller
+
+### 3. Run the Application
+python app.py
+
+## How to Generate Windows .exe File (Executable)
+To share this app with others who don't have Python installed, you can compile it into a single standalone .exe executable file:
+pyinstaller --noconsole --onefile app.py

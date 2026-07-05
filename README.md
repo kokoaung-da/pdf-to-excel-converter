@@ -120,10 +120,8 @@ After processing, the application generates an Excel file:
 
 ## 📸 Screenshot
 
-> Add a screenshot of your application here.
-
 ```
-images/screenshot.png
+image/pdf_to_excel_converter.png
 ```
 
 ---

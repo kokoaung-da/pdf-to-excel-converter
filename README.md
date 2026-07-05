@@ -120,9 +120,7 @@ After processing, the application generates an Excel file:
 
 ## 📸 Screenshot
 
-```
-image/pdf_to_excel_converter.png
-```
+![Converter](https://raw.githubusercontent.com/kokoaung-da/pdf-to-excel-converter/main/pdf_to_excel_converter.png)
 
 ---
 

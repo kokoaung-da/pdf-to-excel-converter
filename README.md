@@ -6,9 +6,9 @@ Designed for users who frequently work with reports, statements, invoices, and t
 
 ---
 
-## ✨ Features
+## Features
 
-### 🔍 Intelligent Table Extraction
+### Intelligent Table Extraction
 
 * Automatically extracts structured tables from PDF documents.
 * Uses a dual-strategy extraction approach for maximum accuracy:
@@ -16,17 +16,17 @@ Designed for users who frequently work with reports, statements, invoices, and t
   * **Grid-based extraction (`lines`)** for bordered tables.
   * **Text-based extraction (`text`)** as a fallback for borderless tables.
 
-### 📑 Smart Multi-page Processing
+### Smart Multi-page Processing
 
 * Detects and removes repeated table headers across multiple pages.
 * Merges all extracted pages into a single, clean dataset.
 
-### 💾 Automatic Output Location
+### Automatic Output Location
 
 * Saves the generated Excel file directly into the same folder as the selected PDF.
 * Eliminates the need to manually choose an output directory.
 
-### 📊 Professional Excel Formatting
+### Professional Excel Formatting
 
 The exported Excel file is automatically formatted with:
 
@@ -36,19 +36,19 @@ The exported Excel file is automatically formatted with:
 * Auto-filter enabled
 * Clean worksheet formatting for immediate use
 
-### ⚡ Responsive User Interface
+### Responsive User Interface
 
 * Background threading prevents the application from freezing during extraction.
 * Suitable for processing large PDF files.
 
-### 📈 Real-time Progress Tracking
+### Real-time Progress Tracking
 
 * Progress bar with percentage updates.
 * Status messages indicating the current processing stage.
 
 ---
 
-## 🛠 Built With
+## Built With
 
 * **Python 3.10+**
 * **CustomTkinter** – Modern desktop GUI
@@ -59,7 +59,7 @@ The exported Excel file is automatically formatted with:
 
 ---
 
-## 🚀 Installation
+## Installation
 
 ### Clone the repository
 
@@ -76,7 +76,7 @@ pip install customtkinter pdfplumber pandas openpyxl pyinstaller
 
 ---
 
-## ▶️ Run the Application
+## Run the Application
 
 ```bash
 python app.py
@@ -84,7 +84,7 @@ python app.py
 
 ---
 
-## 📦 Build a Standalone Windows Executable
+## Build a Standalone Windows Executable
 
 Create a single executable file that can be shared with users who do not have Python installed.
 
@@ -106,7 +106,7 @@ After processing, the application generates an Excel file:
 
 ---
 
-## 🎯 Ideal Use Cases
+## Ideal Use Cases
 
 * Financial reports
 * Bank statements
@@ -124,13 +124,7 @@ After processing, the application generates an Excel file:
 
 ---
 
-## 📄 License
-
-This project is licensed under the MIT License.
-
----
-
-## 🤝 Contributing
+## Contributing
 
 Contributions, feature requests, and bug reports are welcome.
 

@@ -1,39 +1,147 @@
-# Professional PDF Table Extractor to Excel
+# 📄 Professional PDF Table Extractor
 
-**PDF Table Extractor** is a lightweight Windows desktop GUI application that intelligently extracts structural tables from PDF files and converts them into clean, beautifully formatted, professional Excel (`.xlsx`) files.
+A lightweight Windows desktop application that intelligently extracts tables from PDF files and converts them into clean, professionally formatted Excel (`.xlsx`) workbooks.
 
----
-
-## Key Features
-
-*   **Dual-Strategy Table Extraction:** Automatically falls back from grid line-based extraction (`lines`) to borderless text alignment extraction (`text`) to ensure maximum data capture.
-*   **Smart Header Handling:** Intelligently detects and eliminates repetitive headers across multiple pages, consolidating data into a single clean table.
-*   **Automated Save Location:** Enhances UX by automatically saving the output Excel file into the exact same folder as the source PDF—no folder picking required.
-*   **Professional Excel Formatting:** Automatically adjusts column widths based on content length, applies a professional dark blue theme to headers, freezes the top row, and enables auto-filters.
-*   **Asynchronous Threading:** Runs extraction processes on a background thread, preventing the GUI window from becoming "Not Responding" or freezing on large PDF files.
-*   **Real-time Progress Bar:** Provides clear visual feedback with a progress bar and percentage status as it processes through PDF pages.
+Designed for users who frequently work with reports, statements, invoices, and tabular PDF documents, the application provides an easy-to-use interface while producing high-quality Excel outputs with minimal manual cleanup.
 
 ---
 
-## Built With
+## ✨ Features
 
-*   **Python 3.10+**
-*   **CustomTkinter** - For the modern and clean UI/UX design.
-*   **pdfplumber** - For precise structural table extraction.
-*   **Pandas** - For efficient data cleaning, structural alignment, and processing.
-*   **openpyxl** - For programmatic, production-grade Excel styling.
+### 🔍 Intelligent Table Extraction
+
+* Automatically extracts structured tables from PDF documents.
+* Uses a dual-strategy extraction approach for maximum accuracy:
+
+  * **Grid-based extraction (`lines`)** for bordered tables.
+  * **Text-based extraction (`text`)** as a fallback for borderless tables.
+
+### 📑 Smart Multi-page Processing
+
+* Detects and removes repeated table headers across multiple pages.
+* Merges all extracted pages into a single, clean dataset.
+
+### 💾 Automatic Output Location
+
+* Saves the generated Excel file directly into the same folder as the selected PDF.
+* Eliminates the need to manually choose an output directory.
+
+### 📊 Professional Excel Formatting
+
+The exported Excel file is automatically formatted with:
+
+* Auto-adjusted column widths
+* Professional dark blue header styling
+* Frozen header row
+* Auto-filter enabled
+* Clean worksheet formatting for immediate use
+
+### ⚡ Responsive User Interface
+
+* Background threading prevents the application from freezing during extraction.
+* Suitable for processing large PDF files.
+
+### 📈 Real-time Progress Tracking
+
+* Progress bar with percentage updates.
+* Status messages indicating the current processing stage.
 
 ---
 
-## Installation & Setup
+## 🛠 Built With
 
-### 1. Install Dependencies
-Install all required Python libraries using the following command:
+* **Python 3.10+**
+* **CustomTkinter** – Modern desktop GUI
+* **pdfplumber** – PDF table extraction
+* **Pandas** – Data processing and cleaning
+* **openpyxl** – Professional Excel formatting
+* **threading** – Background processing for a responsive UI
+
+---
+
+## 🚀 Installation
+
+### Clone the repository
+
+```bash
+git clone https://github.com/yourusername/pdf-table-extractor.git
+cd pdf-table-extractor
+```
+
+### Install dependencies
+
+```bash
 pip install customtkinter pdfplumber pandas openpyxl pyinstaller
+```
 
-### 2. Run the Application
+---
+
+## ▶️ Run the Application
+
+```bash
 python app.py
+```
 
-## How to Generate Windows .exe File (Executable)
-To share this app with others who don't have Python installed, you can compile it into a single standalone .exe executable file:
+---
+
+## 📦 Build a Standalone Windows Executable
+
+Create a single executable file that can be shared with users who do not have Python installed.
+
+```bash
 pyinstaller --noconsole --onefile app.py
+```
+
+The generated executable will be located in the `dist` folder.
+
+---
+
+## 📂 Output
+
+After processing, the application generates an Excel file:
+
+* In the **same directory** as the selected PDF
+* Using the original filename with an `.xlsx` extension
+* Fully formatted and ready for analysis or reporting
+
+---
+
+## 🎯 Ideal Use Cases
+
+* Financial reports
+* Bank statements
+* Business reports
+* Sales reports
+* Transaction records
+* Invoices
+* Any structured PDF table
+
+---
+
+## 📸 Screenshot
+
+> Add a screenshot of your application here.
+
+```
+images/screenshot.png
+```
+
+---
+
+## 📄 License
+
+This project is licensed under the MIT License.
+
+---
+
+## 🤝 Contributing
+
+Contributions, feature requests, and bug reports are welcome.
+
+If you have suggestions for improvements, feel free to open an issue or submit a pull request.
+
+---
+
+## ⭐ Support
+
+If you find this project useful, consider giving it a **⭐ Star** on GitHub to support future development.

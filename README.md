@@ -1,4 +1,4 @@
-# 📄 Professional PDF Table Extractor
+# 📄 PDF Table Extractor
 
 A lightweight Windows desktop application that intelligently extracts tables from PDF files and converts them into clean, professionally formatted Excel (`.xlsx`) workbooks.
 

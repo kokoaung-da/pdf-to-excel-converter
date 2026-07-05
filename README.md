@@ -96,7 +96,7 @@ The generated executable will be located in the `dist` folder.
 
 ---
 
-## 📂 Output
+## Output
 
 After processing, the application generates an Excel file:
 
@@ -118,7 +118,7 @@ After processing, the application generates an Excel file:
 
 ---
 
-## 📸 Screenshot
+## Screenshot
 
 ![Converter](https://raw.githubusercontent.com/kokoaung-da/pdf-to-excel-converter/main/pdf_to_excel_converter.png)
 
